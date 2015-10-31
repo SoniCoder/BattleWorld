@@ -43,7 +43,7 @@ void FP_Loop(void(*dispfunc)(), void(*gamePhysics)()) {
 	m_struct.network_instance.threadstatus = -1;
 	SDL_WaitThread(m_struct.network_instance.networkRecvThread, &m_struct.network_instance.threadreturnvalue);
 	SDL_WaitThread(m_struct.network_instance.networkSendThread, &m_struct.network_instance.threadreturnvalue);
-	PyRun_SimpleString("çlientSocket.close()");
+	PyRun_SimpleString("clientSocket.close()");
 	Py_Finalize();
 }
 
