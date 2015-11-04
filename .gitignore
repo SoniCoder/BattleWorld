@@ -1,4 +1,8 @@
 /Debug
+/.vs
+/.vs/
+/.vs/*
 *.o
 *.out
 *.swp
+*.sdf

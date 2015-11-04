@@ -27,11 +27,17 @@
     <ClCompile Include="FP\FP_Network.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="FP\FP_CMULTI_SPRITE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FP\KeyboardHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FP\handlerFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Engine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -42,6 +48,21 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="FP\fp_majorincludes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FP\Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FP\FP_Media.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FP\FP_CMULTI_SPRITE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FP\KeyboardHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FP\handlerFunctions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

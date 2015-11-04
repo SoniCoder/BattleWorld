@@ -1,0 +1,18 @@
+Send:
+
+First Handshake: Send "N"
+Note: N is for a Need ID request
+
+
+300 400 2 3
+
+
+Here 300 and 400 are x and y coordinates of that player and 2 3 is the velocity vector in 
+x and y directions respectively.
+
+
+Does with that server sends:
+
+Right After Handshake: Store the ID
+
+Stores ID and coords and draws on screen (except for the own player)

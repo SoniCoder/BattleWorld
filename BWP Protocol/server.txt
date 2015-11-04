@@ -1,0 +1,20 @@
+Sends:
+
+Response to a "N" request: i.e. Need ID request
+Assign an unique ID and send it : ex "5"
+
+234 500 500 2 3 300 200 234 1 1
+
+234 is the ID number and 500 500 refers to the coordinates 
+and 2 3 corresponding velocities of that player.
+300 is yet another ID number and 200 234 the coords and 1 1 
+velocities of the other player.
+
+
+
+
+
+Does with what clients send:
+
+Stores coords and velocities with their IP address and assigns 
+unique ID to each.
