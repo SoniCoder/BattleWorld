@@ -5,6 +5,6 @@
 #include "Engine.h"
 extern fp_main_data m_struct;
 
-void FP_setNetworkStatus(int status);
+//void FP_setNetworkStatus(int status);
 
 #endif

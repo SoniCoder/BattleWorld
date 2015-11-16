@@ -16,5 +16,4 @@ velocities of the other player.
 
 Does with what clients send:
 
-Stores coords and velocities with their IP address and assigns 
-unique ID to each.
+Stores coords and velocities with their ID and updates if ID already exists.

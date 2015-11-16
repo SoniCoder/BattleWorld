@@ -20,8 +20,6 @@
 
 extern fp_main_data m_struct;
 
-int fp_float_to_int_width(float f);
-int fp_float_to_int_height(float f);
 
 void FP_CleanUp();
 void FP_Init(const char *title,
@@ -29,5 +27,13 @@ void FP_Init(const char *title,
 	int h, Uint32 flags);
 void FP_Loop(void (*dispfunc)(), void(*gamePhysics)());
 void FP_SetServer(const char* host,int port, fpst_network_exchange* exunit);
+bool FP_getRecvStatus();
+bool FP_getSendStatus();
+bool FP_getRecvFlag();
+bool FP_getSendFlag();
+void FP_stopReceiving();
+void FP_startReceiving();
+void FP_startSending();
+void FP_stopSending();
 int FP_NetworkThread(void* data);
 #endif

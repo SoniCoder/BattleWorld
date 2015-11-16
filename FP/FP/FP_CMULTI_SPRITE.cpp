@@ -55,10 +55,10 @@ void FP_CMULTI_SPRITE::Draw(int m, int n, float x, float y, float w, float h) {
 	*/
 	CropRect.x = m*eleWidth;
 	CropRect.y = n*eleHeight;
-	Disprect.x = fp_float_to_int_width(x);
-	Disprect.y = fp_float_to_int_height(y);
-	Disprect.w = fp_float_to_int_width(w);
-	Disprect.h = fp_float_to_int_height(h);
+//	Disprect.x = fp_float_to_int_width(x);
+//	Disprect.y = fp_float_to_int_height(y);
+//	Disprect.w = fp_float_to_int_width(w);
+//	Disprect.h = fp_float_to_int_height(h);
 	SDL_RenderCopy(m_struct.renderer, textureptr, &CropRect, &Disprect);
 }
 

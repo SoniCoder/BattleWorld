@@ -12,6 +12,7 @@ public:
 	int getY();
 	int getVx();
 	int getVy();
+	void controls();
 	void keyHandler();
 	void setX(int passed_x);
 	void setY(int passed_y);
@@ -20,9 +21,18 @@ public:
 	void Draw();
 	void playerPhysics();
 	void positionUpdater();
+	void setID(int id);
+	void setPlColor();
+	void setPlVelocity(int vx, int vy);
 private:
+	bool plColorSet;
+
 	int animCol;
+	int colorColOffset;
+	int colorRowOffset;
+	int plColorIndex;
 	int plFacing;
+	int plID;
 	int plMaxSpeed;
 	int time_delta;
 	int velocity[2];
